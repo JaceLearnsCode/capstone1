@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+    position: sticky;
+}
+
+.background-container {
+      position: relative;
+      width: 100%;
+      height: 700px; 
+      overflow: hidden;
+}
+
+    .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://images.pexels.com/photos/1042828/pexels-photo-1042828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover no-repeat; /* Replace the URL with your background image */
+      opacity: 0.6; 
+}
+
+    .fixed-image {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 300px; 
+      height: 300px; 
+      border-radius: 75%; 
+}
+
+    .caption {
+      text-align: center;
+      position: absolute;
+      bottom: 20px; 
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 3;
+      color: black; 
+}
+
+#projects{
+    	background-image: url('https://img.freepik.com/free-photo/desk-workspace-with-various-elements_23-2148043210.jpg?w=1380&t=st=1702872175~exp=1702872775~hmac=4578cacc66698e97cbc834c0349cda811863dc8ba7bc2b9b99e3896d0759e3b7');
+}
+
+#tools{
+    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    overflow: hidden;
+    background-repeat: none;
+    background-size: auto;
+}
+
+#contact{
+    background-image: url('https://images.pexels.com/photos/2883049/pexels-photo-2883049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
+}
+
+.hobbies-container {
+      position: relative;
+      width: 100%;
+      height: 700px; 
+      overflow: hidden;
+    }
+
+#hobbies{     
+      width: 100%;
+      height: 100%;
+      background: url('https://images.pexels.com/photos/19519170/pexels-photo-19519170/free-photo-of-the-setting-sun-in-waikiki-was-temporarily-blocked-by-a-lone-cloud-just-as-this-sailboat-was-passing-by.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover no-repeat; 
+      opacity: 0.8; 
+    }
+
+body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
