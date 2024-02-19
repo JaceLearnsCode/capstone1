@@ -46,10 +46,6 @@
       color: black; 
 }
 
-#projects{
-    	background-image: url('https://img.freepik.com/free-photo/desk-workspace-with-various-elements_23-2148043210.jpg?w=1380&t=st=1702872175~exp=1702872775~hmac=4578cacc66698e97cbc834c0349cda811863dc8ba7bc2b9b99e3896d0759e3b7');
-}
-
 #tools{
     background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     overflow: hidden;
@@ -74,7 +70,3 @@
       background: url('https://images.pexels.com/photos/19519170/pexels-photo-19519170/free-photo-of-the-setting-sun-in-waikiki-was-temporarily-blocked-by-a-lone-cloud-just-as-this-sailboat-was-passing-by.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover no-repeat; 
       opacity: 0.8; 
     }
-
-body.modal-open div.modal-backdrop { 
-    z-index: 0; 
-}
